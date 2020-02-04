@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+// estruturas condicionais simples.
 
 int main() {
     int num = 10;
