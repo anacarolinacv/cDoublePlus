@@ -27,7 +27,7 @@ int main() {
     cin >> valor;
 
     if (valor == 's' or valor == 'S') {
-        goto inicio:
+        goto inicio;
     } 
     
 
