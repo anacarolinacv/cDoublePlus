@@ -6,10 +6,12 @@ using namespace std;
 int main() {
 
     int idade;
+    string saida;
     cout << "Digite a sua idade!";
     cin >> idade;
-
-    (idade > 10) ? cout << "Massa" : cout << "Nada massa";
+    // pode colocar o retorno em uma variavel.
+    
+    saida = (idade > 10) ? cout << "Massa" : cout << "Nada massa";
     
     return 0; 
 }

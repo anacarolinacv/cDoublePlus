@@ -19,5 +19,5 @@ int main () {
         cout << "Idade inválida!\n";
         break;
     }
-
+    return 0;
 }
