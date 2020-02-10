@@ -8,12 +8,13 @@ int soma();
 int soma(int n1, int n2);
 
 int main () {
-
+    soma();
+    soma(1, 2);
 
     return 0;
 
 }
-void soma (int n1, int n2) {
+void soma(int n1, int n2) {
     int re;
     re = n1 + n2;
 

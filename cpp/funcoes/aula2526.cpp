@@ -5,12 +5,14 @@ using namespace std;
 
 // recursividade.
 void contador (int num, int cont=0);
-void fatorial(int num, int fat, int cont=0);
-void fibonacci(int num, int temp, int =1);
+void fatorial(int num);
+void fibonacci(int num);
 
 int main () {
 
     contador(20);
+    fatorial(5);
+    fibonacci(10);
 
     return 0;
 }
