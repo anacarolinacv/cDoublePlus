@@ -20,6 +20,7 @@ public:
     float velMax;
     string id;
     string tipo;
+    Aviao(int tp);
 
     void defineTipoAviao(int id);
 
